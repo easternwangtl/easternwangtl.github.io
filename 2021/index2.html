@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  font-style: italic;
+  font-size:150%;
+  color: blue;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Children 2021</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <a href="https://drive.google.com/drive/folders/1hZWVMVRFZHYb6cD06cAorQmcY8VMfETX"><img src="music.jpg" style="width:100%" border=3></a>
+  <a href="https://drive.google.com/file/d/1cviAGpcS5addubeSSh6lBIcsLzI6I0GT/view?usp=sharing"><img src="story1.jpg" style="width:100%" border=0></a>
+  <a href="https://drive.google.com/file/d/1e0_z62H0DUCBF1DdAa7_MEO2tr_-Ng7c/view"><img src="book2.png" style="width:100%" border=0></a>
+  </div>
+  <div class="column">
+  <a href="https://www.youtube.com/playlist?list=PLiYcPxK7BDGTRMRVP_TqdySBatOC2gyAb"><img src="song_action.jpg" style="width:100%" border=0></a>
+  <a href="https://drive.google.com/drive/folders/1TTXD-SaDF_07VWmdOLgd9LI6gkk9kCG1"><img src="home.png" style="width:100%" border=0></a>
+  <a href="https://drive.google.com/file/d/1z0zewGPf9RDkmuwqjm0MBeGSONn7T0tg/view"><img src="book.jpg" style="width:100%" border=0></a>
+  </div>
+</div>
+
+
+</body>
+</html>
