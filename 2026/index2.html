@@ -35,6 +35,74 @@ body {
   display: table;
   clear: both;
 }
+
+.manual-group {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  border: 3px solid #6aa84f;
+  border-radius: 16px;
+  background: #fffdf2;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.manual-icon {
+  display: grid;
+  place-items: center;
+  min-height: 240px;
+  padding: 24px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.manual-icon::-webkit-details-marker {
+  display: none;
+}
+
+.manual-icon:hover,
+.manual-icon:focus {
+  background: #f3f8e9;
+}
+
+.manual-emoji {
+  display: block;
+  font-size: 6rem;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.manual-title {
+  display: block;
+  color: #38761d;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.manual-links {
+  display: grid;
+  gap: 12px;
+  padding: 0 20px 20px;
+}
+
+.manual-link {
+  display: block;
+  padding: 16px;
+  border-radius: 10px;
+  background: #f6b26b;
+  color: #4a2500;
+  font-size: 1.35rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.manual-link:hover,
+.manual-link:focus {
+  background: #ffd39f;
+}
+
 </style>
 <body>
 
@@ -48,12 +116,26 @@ body {
   <div class="column">
   <a href="https://drive.google.com/drive/folders/1erQ6vINFlfyxI7vhSy1jbpiWdAp_oq30?usp=sharing"><img src="music.jpg" style="width:100%" border=3></a>
   <a href="story1.html"><img src="story1.jpg" style="width:100%" border=0></a>
-  <a href="https://drive.google.com/file/d/1nKZAG_taJROjfj5IinKGxmPXfFYCTXqb/view?usp=sharing"><img src="book2.png" style="width:100%" border=0></a>
+  <a class="manual-group" href="parent-child-manual.html">
+    <span class="manual-icon">
+      <span>
+        <span class="manual-emoji" aria-hidden="true">📚</span>
+        <span class="manual-title">親子園手冊</span>
+      </span>
+    </span>
+  </a>
   </div>
   <div class="column">
   <a href="https://youtube.com/playlist?list=PLiYcPxK7BDGTkbbbXeYNsM9AaBPqW3gWI&si=6WzsEiMN7Kox0SPr"><img src="song_action.jpg" style="width:100%" border=0></a>
   <a href="https://childrenhc.blogspot.com//"><img src="home.png" style="width:100%" border=0></a>
-  <a href="https://drive.google.com/file/d/1T5kirPHQjSV3Cag_QpkvXtOV06HLlvzx/view?usp=sharing"><img src="book.jpg" style="width:100%" border=0></a>
+  <a class="manual-group" href="practice-manual.html">
+    <span class="manual-icon">
+      <span>
+        <span class="manual-emoji" aria-hidden="true">📝</span>
+        <span class="manual-title">操練手冊</span>
+      </span>
+    </span>
+  </a>
   </div>
 </div>
 
